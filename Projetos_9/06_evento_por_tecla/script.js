@@ -1,25 +1,15 @@
-let btn1 = document.querySelector("#abtn1");
-let btn2 = document.querySelector("#abtn2");
-let p = document.querySelector("p");
-let a = document.querySelector("a");
+window.addEventListener("keydown", function(e) {
+     if(e.key == "q") {
+          console.log("Apertou a letra q")
+     }else if(e.key == "Enter"){
+          console.log("Apertou Enter")
+     }
 
-function msg(e) {
-     console.log("Clicou no button");
-     e.stopPropagation();
-}
-
-btn1.addEventListener("Click", msg);
-
-btn2.addEventListener("click", function(event) {
-     console.log(event);
 });
 
-p.addEventListener("click", function() {
-     console.log("clico no paragrafo");
-});
+window.addEventListener("keyup", function(e) {
 
-e.addEventListener("click", function(e) {
-
-     e.preventDefaut();
-
+     if(e.key == "Enter") {
+          console.log("Saltou o enter");
+     }
 });

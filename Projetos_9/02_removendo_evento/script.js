@@ -9,4 +9,4 @@ btn1.addEventListener("Click", msg);
 
 btn1.addEventListener("click", function() {
      btn1.removeEventListener("click", msg);
-}
+});

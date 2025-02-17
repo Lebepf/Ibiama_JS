@@ -1,25 +1,19 @@
-let btn1 = document.querySelector("#abtn1");
-let btn2 = document.querySelector("#abtn2");
-let p = document.querySelector("p");
-let a = document.querySelector("a");
+let btn1 = document.querySelector("btn1");
 
-function msg(e) {
-     console.log("Clicou no button");
-     e.stopPropagation();
-}
-
-btn1.addEventListener("Click", msg);
-
-btn2.addEventListener("click", function(event) {
-     console.log(event);
+btn1.addEventListener("mousedown", function() {
+     console.log("Apertou o botão")
 });
 
-p.addEventListener("click", function() {
-     console.log("clico no paragrafo");
+btn1.addEventListener("mouseup", function(){
+     console.log("Soltou o botão");
 });
 
-e.addEventListener("click", function(e) {
+btn2.addEventListener("dblclick", function() {
+     console.log("Clicou duas vezes");
+});
 
-     e.preventDefaut();
+btn2.addEventListener("contextmenu", function(e) {
 
+     e.preventDefault();
+     console.log("Botão direito")
 });

@@ -4,7 +4,7 @@ let p = document.querySelector("p");
 
 function msg(e) {
      console.log("Clicou no button");
-     e.stopPropagation
+     e.stopPropagation();
 }
 
 btn1.addEventListener("Click", msg);

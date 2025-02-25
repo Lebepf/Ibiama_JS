@@ -1,0 +1,12 @@
+{
+    "name": "02_iniciando_projeto",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"error: no test specified\" && exit 1"
+    },
+    "author": "joão <matheusbudkewicznbattisti@gmail.com> (https://www.horadeacordar.com.br)",
+    "license": "MIT"
+  }
+  

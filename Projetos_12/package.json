@@ -1,0 +1,31 @@
+{
+  "name": "job_finder",
+  "version": "1.0.0",
+  "description": "Este sistema é um portal para programadores acharem vagas de trabalho.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lebepf"
+  },
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
